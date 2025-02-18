@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (alphabt[i] != 'q' && alphabt[i] != 'e')
 		{
-			putchar(alphabt[i];
+			putchar(alphabt[i]);
 		}
 
 		i++;
