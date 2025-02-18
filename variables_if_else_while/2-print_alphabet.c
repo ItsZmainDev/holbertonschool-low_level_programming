@@ -10,9 +10,9 @@ int main(void)
 	int alphabet = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while (str[i] != "\0")
+	while (alphabet[i] != "\0")
 	{
-		putchar(str[i]);
+		putchar(alphabet[i]);
 		i++;
 	}
 
