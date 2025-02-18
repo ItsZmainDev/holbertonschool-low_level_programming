@@ -12,7 +12,7 @@ int main(void)
 
 	while (alphabt[i] != '\0')
 	{
-		if (alphabt[i] != "q" && alphabt[i] != "e")
+		if (alphabt[i] != 'q' && alphabt[i] != 'e')
 		{
 			putchar(alphabt[i];
 		}
