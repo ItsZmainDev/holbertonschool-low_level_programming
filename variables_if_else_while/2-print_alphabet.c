@@ -10,13 +10,13 @@ int main(void)
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while (alphabet[i] != "\0")
+	while (alphabet[i] != '\0')
 	{
 		putchar(alphabet[i]);
 		i++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
