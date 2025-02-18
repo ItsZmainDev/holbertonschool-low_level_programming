@@ -3,16 +3,19 @@
 /**
  * main - Display all single digit numbers of base 10 starting 0
  *
- * Return: Always 0 (SuccessÃ)
+ * Return: Always 0 (Successï¿½)
  */
 int main(void)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < 10; i++)
+	while (i < 10)
+	{
 		printf("%d", i);
+		i++;
+	}
 
-	putchar('\n');
+	printf('\n');
 
 	return (0);
 }
