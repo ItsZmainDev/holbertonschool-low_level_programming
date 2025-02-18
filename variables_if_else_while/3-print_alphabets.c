@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char alphabets[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$";
+	char alphabets[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i = 0;
 
 	while (alphabets[i] != '\0')
