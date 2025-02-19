@@ -7,17 +7,16 @@
  */
 int main(void)
 {
-	char alphabt[] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0;
+	char letter = "a";
 
-	while (alphabt[i] != '\0')
+	while (letter <= "z")
 	{
-		if (alphabt[i] != 'q' && alphabt[i] != 'e')
+		if (letter != 'q' && letter != 'e')
 		{
-			putchar(alphabt[i]);
+			putchar(letter);
 		}
 
-		i++;
+		letter++;
 	}
 
 	putchar('\n');
