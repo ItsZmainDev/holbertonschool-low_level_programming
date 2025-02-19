@@ -7,13 +7,18 @@
  */
 int main(void)
 {
-	char alphabets[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i = 0;
+	char letter = "a";
+	char LETTER = "A";
 
-	while (alphabets[i] != '\0')
+	while (letter <= "z")
 	{
-		putchar(alphabets[i]);
-		i++;
+		putchar(letter);
+		letter++;
+	}
+	while (LETTER <= "Z")
+	{
+		putchar(LETTER);
+		LETTER++;
 	}
 
 	putchar('\n');
