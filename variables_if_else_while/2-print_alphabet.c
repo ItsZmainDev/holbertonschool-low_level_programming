@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Display the alaphabet with the putchar
+ * main - Display the alphabet with the putchar
  *
  * Return: Always 0 (Success)
  */
