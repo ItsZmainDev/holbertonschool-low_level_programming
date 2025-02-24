@@ -4,7 +4,7 @@
  * print_line - Print lines x n
  * @n: The number
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int i;
 
