@@ -8,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	if (c >= 32 || c <= 126)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
