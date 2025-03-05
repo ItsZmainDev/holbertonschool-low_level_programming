@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * find_sqrt - finds the square root of a number
+ * @n: number to find the square root of
+ * @i: number to check
+ *
+ * Return: the square root of n
+ */
 int find_sqrt(int n, int i)
 {
 	if (i * i == n)
