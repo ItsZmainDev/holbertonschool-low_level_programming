@@ -23,5 +23,7 @@ int main(int argc, char *argv[])
 
 	i = num1 * num2;
 
-	return (i);
+	printf("%d\n", i);
+
+	return(0);
 }
