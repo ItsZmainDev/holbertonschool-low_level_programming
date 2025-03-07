@@ -29,9 +29,9 @@ int is_digit(char *s)
  */
 int main(int argc, char *argv[])
 {
-	int i, result;
+	int i, result = 0;
 
-	for (i = 1; i <= argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		if (!is_digit(argv[i]))
 		{
