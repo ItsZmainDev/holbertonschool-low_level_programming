@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * is_digit - checks if a string is a digit
@@ -41,7 +42,7 @@ int main(int argc, char *argv[])
 		result += atoi(argv[i]);
 	}
 
-	printf("%d\n", result)
+	printf("%d\n", result);
 
 	return (0);
 }
